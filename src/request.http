@@ -36,7 +36,7 @@ GET http://localhost:3000/auth/users
 
 
 ### Find user by Id
-GET http://localhost:3000/auth/users/3
+GET http://localhost:3000/auth/users/1
 
 
 ### Find User with Query

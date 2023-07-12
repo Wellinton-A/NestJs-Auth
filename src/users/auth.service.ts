@@ -10,7 +10,6 @@ import { Repository } from 'typeorm'
 import * as crypto from 'crypto'
 
 import { User } from './user.entity'
-import { CreateUserDto } from './dtos/create-user.dto'
 
 function hashPassword(password: string) {
   const salt = crypto.randomBytes(32).toString('hex')
